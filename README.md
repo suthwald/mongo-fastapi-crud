@@ -28,7 +28,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 
     ```bash
     git clone https://github.com/suthwald/mongo-fastapi-crud.git
-    cd enterprise-crud-api
+    cd mongo-fastapi-crud
     ```
 
 2. Create and activate a virtual environment:
@@ -65,7 +65,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 
 ### Create Item
 
-- **URL**: `/api/v1/items/`
+- **URL**: `/api/v1/`
 - **Method**: `POST`
 - **Request Payload**:
     ```json
@@ -80,7 +80,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 
 ### Read Item
 
-- **URL**: `/api/v1/items/{item_id}`
+- **URL**: `/api/v1/{item_id}`
 - **Method**: `GET`
 - **URL Params**:
     - `item_id`: The ID of the item to retrieve.
@@ -88,7 +88,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 
 ### Update Item
 
-- **URL**: `/api/v1/items/{item_id}`
+- **URL**: `/api/v1/{item_id}`
 - **Method**: `PUT`
 - **URL Params**:
     - `item_id`: The ID of the item to update.
@@ -103,7 +103,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 
 ### Delete Item
 
-- **URL**: `/api/v1/items/{item_id}`
+- **URL**: `/api/v1/{item_id}`
 - **Method**: `DELETE`
 - **URL Params**:
     - `item_id`: The ID of the item to delete.
