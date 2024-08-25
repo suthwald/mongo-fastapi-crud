@@ -1,0 +1,12 @@
+2024-08-25 20:02:08,274 - root - INFO - Logging is set up.
+2024-08-25 20:03:34,538 - app.services - INFO - Item created: {'_id': ObjectId('66cb40beea0586f7179ba218'), 'name': 'Apple iPhone 14', 'description': 'Latest iPhone with A16 Bionic chip', 'price': 999.99, 'in_stock': True}
+2024-08-25 20:08:08,928 - root - INFO - Logging is set up.
+2024-08-25 20:08:44,842 - app.services - INFO - Item created: {'_id': ObjectId('66cb41f48ee51036449ef5c2'), 'name': 'Apple iPhone 14', 'description': 'Latest iPhone with A16 Bionic chip', 'price': 999.99, 'in_stock': True}
+2024-08-25 20:09:20,428 - app.services - INFO - Item created: {'_id': ObjectId('66cb42188ee51036449ef5c3'), 'name': 'Apple iPhone 14', 'description': 'Latest iPhone with A16 Bionic chip', 'price': 999.99, 'in_stock': True}
+2024-08-25 23:17:01,448 - root - INFO - Logging is set up.
+2024-08-25 23:18:20,786 - root - INFO - Logging is set up.
+2024-08-25 23:18:43,480 - app.services - INFO - Item created: {'_id': ObjectId('66cb6e7b6cc588586349c465'), 'name': 'Apple iPhone 14', 'description': 'Latest iPhone with A16 Bionic chip', 'price': 999.99, 'in_stock': True}
+2024-08-25 23:23:11,208 - root - INFO - Logging is set up.
+2024-08-25 23:25:01,485 - app.services - INFO - Item created: {'_id': ObjectId('66cb6ff560b42ca7559a0e45'), 'name': 'Laptop', 'description': 'A high-performance laptop for gaming and work.', 'price': 1500.0, 'in_stock': True}
+2024-08-25 23:25:36,037 - app.services - INFO - Item created: {'_id': ObjectId('66cb701860b42ca7559a0e46'), 'name': 'Smartphone', 'description': 'A latest model smartphone with a powerful camera.', 'price': 999.99, 'in_stock': True}
+2024-08-25 23:25:49,540 - app.services - INFO - Item created: {'_id': ObjectId('66cb702560b42ca7559a0e47'), 'name': 'Wireless Mouse', 'description': 'A comfortable wireless mouse with ergonomic design.', 'price': 49.99, 'in_stock': False}
