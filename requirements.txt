@@ -7,3 +7,5 @@ passlib[bcrypt]
 pytest
 httpx
 pydantic-settings
+pylint
+ruff

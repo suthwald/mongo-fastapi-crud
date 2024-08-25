@@ -1,0 +1,65 @@
+
+### `.gitignore`
+
+Here’s a typical `.gitignore` file for a Python project using FastAPI and MongoDB:
+
+```gitignore
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# .env file for environment variables
+.env
+
+# Database files
+*.sqlite3
+*.db
+
+# Log files
+*.log
+
+# IDE/editor directories
+.vscode/
+.idea/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+.coverage.*
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# Black
+black/
+
+# FastAPI
+__pycache__/
+*.pyd
+*.pyo
+
+# Other
+*.swp
+*.swo
+*.swn
+
+# Git
+*.git/

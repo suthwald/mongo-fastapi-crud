@@ -27,7 +27,7 @@ This is a simple enterprise-level CRUD API built with FastAPI and MongoDB. The A
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/enterprise-crud-api.git
+    git clone https://github.com/suthwald/mongo-fastapi-crud.git
     cd enterprise-crud-api
     ```
 

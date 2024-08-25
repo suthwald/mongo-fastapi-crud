@@ -6,6 +6,7 @@ client = AsyncIOMotorClient(settings.mongodb_url)
 db = client[settings.database_name]
 items_collection = db["items"]
 
+
 class ItemModel:
     @staticmethod
     async def create(item_dict):
@@ -19,8 +20,7 @@ class ItemModel:
     @staticmethod
     async def update(item_id, update_dict):
         result = await items_collection.update_one(
-            {"_id": ObjectId(item_id)},
-            {"$set": update_dict}
+            {"_id": ObjectId(item_id)}, {"$set": update_dict}
         )
         if result.matched_count == 0:
             return None

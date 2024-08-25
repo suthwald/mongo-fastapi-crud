@@ -5,6 +5,7 @@ from app.schemas import ItemCreate, ItemUpdate
 
 logger = logging.getLogger(__name__)
 
+
 class ItemService:
     @staticmethod
     async def create_item(item_create: ItemCreate):

@@ -5,9 +5,7 @@ LOGGING_CONFIG = {
     "version": 1,
     "disable_existing_loggers": False,
     "formatters": {
-        "default": {
-            "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-        }
+        "default": {"format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"}
     },
     "handlers": {
         "file": {
@@ -25,6 +23,7 @@ LOGGING_CONFIG = {
         "handlers": ["console", "file"],
     },
 }
+
 
 def setup_logging():
     dictConfig(LOGGING_CONFIG)
